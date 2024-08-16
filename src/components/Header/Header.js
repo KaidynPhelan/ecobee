@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './Header.css'; 
 import { Link } from 'react-router-dom'; 
 import logo from '../../assets/ecobee_logo.png';
-
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import EmailIcon from '@mui/icons-material/Email';
