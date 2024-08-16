@@ -1,0 +1,58 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Padding for the entire header */
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    height: 100px; /* Adjust height as needed */
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 100px; /* Adjust the height of the logo */
+    margin-right: 30px;
+  }
+  
+  .nav-links a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px; /* Font size for the links */
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-link {
+    margin-right: 20px;
+    color: black;
+    font-size: 24px; /* Increase size of the social icons */
+  }
+  
+  .social-link:hover {
+    color: #666;
+  }
+  
+  .apply-now-btn {
+    padding: 15px 30px;
+    background-color: yellow; /* Background color of the button */
+    color: black; /* Text color */
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 5px; /* Slightly round the edges of the button */
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #ffd700; /* Slightly darker yellow on hover */
+  }

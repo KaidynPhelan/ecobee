@@ -1,10 +1,16 @@
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import Layout from './components/Layout.js';
 
 function App() {
   return (
-    <div>
-      <p>EcoBee Website</p>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path='/home' element={<Layout />} />
+      </Routes>
+
+    </Router>
   );
 }
 
