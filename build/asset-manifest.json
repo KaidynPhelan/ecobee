@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b4fa4e79.css",
+    "main.js": "/static/js/main.5dedaeed.js",
+    "static/media/ecobee_logo.png": "/static/media/ecobee_logo.656bf71ed1b3d1d740b8.png",
+    "static/media/honeycomb_background.jpg": "/static/media/honeycomb_background.a9ecdc98dc0a90c99528.jpg",
+    "index.html": "/index.html",
+    "main.b4fa4e79.css.map": "/static/css/main.b4fa4e79.css.map",
+    "main.5dedaeed.js.map": "/static/js/main.5dedaeed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4fa4e79.css",
+    "static/js/main.5dedaeed.js"
+  ]
+}
