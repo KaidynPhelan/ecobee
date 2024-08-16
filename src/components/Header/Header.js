@@ -51,11 +51,11 @@ function Header() {
           sx={{
             textDecoration: 'none', 
             color: 'black', 
-            fontFamily: 'Poppins, sans-serif', // Apply the Poppins font here
+            fontFamily: 'Poppins, sans-serif', 
             fontSize: '16px',
             padding: '10px 20px',
             '&:hover': {
-              backgroundColor: 'rgba(255, 255, 0, 0.3)',
+              backgroundColor: '#ffd700', // Updated hover color
             },
           }}
         >
@@ -79,10 +79,10 @@ function Header() {
             sx={{ 
               textTransform: 'none', 
               color: 'black', 
-              fontFamily: 'Poppins, sans-serif', // Apply the Poppins font here
+              fontFamily: 'Poppins, sans-serif', 
               fontSize: '16px',
-              fontWeight: 600, // Bold the text
-              '&:hover': { backgroundColor: 'rgba(255, 255, 0, 0.3)' },
+              fontWeight: 600, 
+              '&:hover': { backgroundColor: '#ffd700' }, // Updated hover color
               marginRight: '20px', 
             }}
           >
@@ -100,10 +100,10 @@ function Header() {
             sx={{ 
               textTransform: 'none', 
               color: 'black', 
-              fontFamily: 'Poppins, sans-serif', // Apply the Poppins font here
+              fontFamily: 'Poppins, sans-serif', 
               fontSize: '16px',
-              fontWeight: 600, // Bold the text
-              '&:hover': { backgroundColor: 'rgba(255, 255, 0, 0.3)' },
+              fontWeight: 600, 
+              '&:hover': { backgroundColor: '#ffd700' }, // Updated hover color
               marginRight: '20px', 
             }}
           >
@@ -121,10 +121,10 @@ function Header() {
             sx={{ 
               textTransform: 'none', 
               color: 'black', 
-              fontFamily: 'Poppins, sans-serif', // Apply the Poppins font here
+              fontFamily: 'Poppins, sans-serif', 
               fontSize: '16px',
-              fontWeight: 600, // Bold the text
-              '&:hover': { backgroundColor: 'rgba(255, 255, 0, 0.3)' },
+              fontWeight: 600, 
+              '&:hover': { backgroundColor: '#ffd700' }, // Updated hover color
               marginRight: '20px', 
             }}
           >
@@ -142,10 +142,10 @@ function Header() {
             sx={{ 
               textTransform: 'none', 
               color: 'black', 
-              fontFamily: 'Poppins, sans-serif', // Apply the Poppins font here
+              fontFamily: 'Poppins, sans-serif', 
               fontSize: '16px',
-              fontWeight: 600, // Bold the text
-              '&:hover': { backgroundColor: 'rgba(255, 255, 0, 0.3)' },
+              fontWeight: 600, 
+              '&:hover': { backgroundColor: '#ffd700' }, // Updated hover color
               marginRight: '20px', 
             }}
           >
@@ -158,16 +158,16 @@ function Header() {
         </nav>
       </div>
       <div className="header-right">
-        <a href="https://www.facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.facebook.com/ecobeeenergy/" className="social-link" target="_blank" rel="noopener noreferrer">
           <FacebookIcon />
         </a>
-        <a href="https://www.instagram.com" className="social-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.instagram.com/ecobeeenergy" className="social-link" target="_blank" rel="noopener noreferrer">
           <InstagramIcon />
         </a>
-        <a href="mailto:info@ecobee.com" className="social-link" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:office@ecobeeenergy.com" className="social-link" target="_blank" rel="noopener noreferrer">
           <EmailIcon />
         </a>
-        <button className="apply-now-btn">APPLY NOW</button>
+        <button className="apply-now-btn">CONTACT US</button>
       </div>
     </header>
   );
